@@ -48,10 +48,32 @@ namespace AppFWT
                 
             }
         }
-
+        public async void VerificarRegistro()
+        {
+            if (String.IsNullOrWhiteSpace(txt_mailregister.Text))
+            {
+                await this.DisplayAlert("Error", "Campo email vacio", "Aceptar");
+            }
+            else
+            {
+                if (String.IsNullOrWhiteSpace(txt_passwordregister.Text))
+                {
+                    await this.DisplayAlert("Error", "Campo contraseña vacio", "Aceptar");
+                }
+                else
+                {
+                    if (String.IsNullOrWhiteSpace(txt_user.Text))
+                    {
+                        await this.DisplayAlert("Error","Campo usuario vacio","Aceptar");
+                    }
+                }
+            }
+        } 
+        
         private void btn_registrar_Clicked(object sender, EventArgs e)
         {
             //Registrar
+            VerificarRegistro();
         }
 
         private void btn_regresarregister_Clicked(object sender, EventArgs e)
@@ -63,11 +85,33 @@ namespace AppFWT
             }
         }
 
+        public async void AbrirMenu()
+        {
+            Navigation.PushAsync(new dashboard("hola"));
+        }
+        public async void VerificarSesion()
+        {
+            if (String.IsNullOrWhiteSpace(txt_mailsesion.Text))
+            {
+                await this.DisplayAlert("Error", "Campo email vacio", "Aceptar");
+            }
+            else
+            {
+                if(String.IsNullOrWhiteSpace(txt_passwordsesion.Text))
+                {
+                    await this.DisplayAlert("Error", "Campo contraseña vacio", "Aceptar");
+                }
+                else
+                {
+                    AbrirMenu();
+                }
+            }
+        }
         private void btn_iniciarsesion_Clicked(object sender, EventArgs e)
         {
             //Iniciar sesion
+            VerificarSesion();
             //Navigation.PushAsync(new Escaner());
-            Navigation.PushAsync(new dashboard("hola"));
         }
 
         private void btn_regresarsesion_Clicked(object sender, EventArgs e)
