@@ -16,7 +16,7 @@ namespace AppFWT.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            //Victor se la come xd
+            //Victor se la come xdd
         }
     }
 }
