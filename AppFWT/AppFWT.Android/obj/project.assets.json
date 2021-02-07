@@ -2378,11 +2378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "projectUniqueName": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
       "projectName": "AppFWT.Android",
-      "projectPath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "projectPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
       "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT.Android\\obj\\",
+      "outputPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2403,8 +2403,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj": {
-              "projectPath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj"
+            "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj": {
+              "projectPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj"
             }
           }
         }

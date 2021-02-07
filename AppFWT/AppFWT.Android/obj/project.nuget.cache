@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WK+JqCW2SZeT/RRhajuOB0lGY7LtB2HPTBwLRrjrOc7bW7D1ROxdphhi2RNJj5UOKj4hQUbXOJFWpqvza4YrDQ==",
+  "dgSpecHash": "5fmVwmVlpTmzXLLXmElysa0eYy756fmsTR9SpuxMYtfxFFc3VVlPQYofpfHlz+6ul9v+KhhfeItDbZuQIKlSQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+  "projectFilePath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.41\\syncfusion.licensing.18.4.0.41.nupkg.sha512",

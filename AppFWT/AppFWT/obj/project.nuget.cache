@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqWPZNFEjLv/whLxsyqcn1/6q4yHGh9eDpkT9N6bQpB7asKadRvLldfNYwpvg6nBNQyPyous/8OlLf+i/CPBGQ==",
+  "dgSpecHash": "PwK2Z2/n0fpOuwRnxFNvGTxNwt/r3pOX+PVXSpmhsGJvAtDYp45RpPDDChgxC8jxpnHzQgRB8/wpbklH2Lqp7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj",
+  "projectFilePath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

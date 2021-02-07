@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj": {}
+    "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj": {
+    "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj",
+        "projectUniqueName": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj",
         "projectName": "AppFWT",
-        "projectPath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj",
+        "projectPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\obj\\",
+        "outputPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
