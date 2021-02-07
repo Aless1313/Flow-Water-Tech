@@ -11,6 +11,15 @@
           "lib/MonoAndroid403/FastAndroidCamera.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Syncfusion.Licensing/18.4.0.41": {
         "type": "package",
         "compile": {
@@ -930,6 +939,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Xamarin.Buttons": "18.4.0.41",
           "Syncfusion.Xamarin.Core": "18.4.0.41",
           "Syncfusion.Xamarin.SfAutoComplete": "18.4.0.41",
@@ -965,6 +975,37 @@
         "src/CameraExtensions.cs",
         "src/FastJavaByteArray.cs",
         "src/FastJavaByteArrayEnumerator.cs"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Syncfusion.Licensing/18.4.0.41": {
@@ -2372,24 +2413,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aless\\.nuget\\packages\\": {},
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyecto App FWT\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
       "projectName": "AppFWT.Android",
-      "projectPath": "D:\\Proyecto App FWT\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
-      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyecto App FWT\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2403,8 +2444,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Proyecto App FWT\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj": {
-              "projectPath": "D:\\Proyecto App FWT\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj"
+            "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj": {
+              "projectPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj"
             }
           }
         }

@@ -11,6 +11,7 @@ using Syncfusion.XForms.Buttons;
 using Border = Syncfusion.XForms.Border.SfBorder;
 using System.Collections.ObjectModel;
 using AppFWT.Views;
+using AppFWT.Clases;
 
 namespace AppFWT
 {
@@ -48,6 +49,22 @@ namespace AppFWT
                 
             }
         }
+
+        public async void Registrar()
+        {
+            try
+            {
+                UserManager manager = new UserManager();
+                manager.registrar(txt_user.Text.ToString(),txt_mailregister.Text.ToString(),txt_passwordregister.Text.ToString());
+                await this.DisplayAlert("Exito", "Registrado", "Aceptar");
+                stkregistrar.IsVisible = false;
+                ButtonsLogin.IsVisible = true;
+            }
+            catch(Exception e)
+            {
+                await this.DisplayAlert("Error", e.Message,"Aceptar");
+            }
+        }
         public async void VerificarRegistro()
         {
             if (String.IsNullOrWhiteSpace(txt_mailregister.Text))
@@ -65,6 +82,10 @@ namespace AppFWT
                     if (String.IsNullOrWhiteSpace(txt_user.Text))
                     {
                         await this.DisplayAlert("Error","Campo usuario vacio","Aceptar");
+                    }
+                    else
+                    {
+                        Registrar();
                     }
                 }
             }
@@ -89,6 +110,26 @@ namespace AppFWT
         {
             await Navigation.PushAsync(new dashboard("hola"));
         }
+        public async void VerificarExiste()
+        {
+            try
+            {
+                UserManager manager = new UserManager();
+                var result = await manager.Login(txt_mailsesion.Text.ToString(), txt_passwordsesion.Text.ToString());
+                if (result.Count() > 0)
+                {
+                    AbrirMenu();
+                }
+                else
+                {
+                    await this.DisplayAlert("Error", "Usuario o Contraseña incorrectas", "Aceptar");
+                }   
+            }
+            catch(Exception ex)
+            {
+                await this.DisplayAlert("Error", ex.Message, "Aceptar");
+            }
+        }
         public async void VerificarSesion()
         {
             if (String.IsNullOrWhiteSpace(txt_mailsesion.Text))
@@ -103,7 +144,7 @@ namespace AppFWT
                 }
                 else
                 {
-                    AbrirMenu();
+                    VerificarExiste();
                 }
             }
         }

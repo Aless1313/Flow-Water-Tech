@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Net;
+using Newtonsoft.Json;
 
 
 namespace AppFWT.Clases
@@ -13,7 +14,7 @@ namespace AppFWT.Clases
     
     public class UserManager
     {
-        const String URL = "http:///developerfwt.atwebpages.com/php/";
+        const String URL = "http://developerfwt.atwebpages.com/php/";
 
         private HttpClient getClient()
         {
@@ -31,6 +32,24 @@ namespace AppFWT.Clases
             HttpClient client = getClient();
             var result = await client.GetAsync(URL + "registro.php?user=" + user + "&mail=" + mail + "&password=" + password);
         }
+
+        //Login
+        public async Task<IEnumerable<user>> Login(string mail, string password)
+        {
+            HttpClient client = getClient();
+            var result = await client.GetAsync(URL + "login.php?mail=" + mail + "&password=" + password);
+            if (result.IsSuccessStatusCode)
+            {
+                string content = await result.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<IEnumerable<user>>(content);
+
+            }
+            else 
+            {
+                return Enumerable.Empty<user>();
+            }
+        }
+       
 
 
     }

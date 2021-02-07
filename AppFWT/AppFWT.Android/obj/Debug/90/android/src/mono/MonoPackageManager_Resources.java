@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"AppFWT.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Syncfusion.Buttons.XForms.Android.dll",
 		"Syncfusion.Buttons.XForms.dll",
 		"Syncfusion.Core.XForms.Android.dll",

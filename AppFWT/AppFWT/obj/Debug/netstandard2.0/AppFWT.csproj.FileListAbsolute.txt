@@ -38,25 +38,6 @@ E:\A_ PROYECTO APP FWT\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.csproj.Copy
 E:\A_ PROYECTO APP FWT\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.dll
 E:\A_ PROYECTO APP FWT\AppFWT\AppFWT\obj\Debug\netstandard2.0\ref\AppFWT.dll
 E:\A_ PROYECTO APP FWT\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.pdb
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.deps.json
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.dll
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\ref\AppFWT.dll
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.pdb
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.dll
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.pdb
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.xml
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.csprojAssemblyReference.cache
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\dashboard.xaml.g.cs
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\Escaner.xaml.g.cs
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.AssemblyInfoInputs.cache
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.AssemblyInfo.cs
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.csproj.CopyComplete
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.dll
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\ref\AppFWT.dll
-C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.pdb
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.deps.json
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.dll
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\ref\AppFWT.dll
@@ -77,3 +58,22 @@ D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFW
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.dll
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\ref\AppFWT.dll
 D:\Proyecto App FWT\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.pdb
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.deps.json
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.dll
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\ref\AppFWT.dll
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\AppFWT.pdb
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\dashboard.xaml.g.cs
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\Escaner.xaml.g.cs
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.AssemblyInfo.cs
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.csproj.CopyComplete
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.dll
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\ref\AppFWT.dll
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\AppFWT.pdb
+C:\Users\andre\Desktop\Ahora si jalara\Flow-Water-Tech\AppFWT\AppFWT\obj\Debug\netstandard2.0\XamlC.stamp
