@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
+             x:Class="AppFWT.Views.dashboard">
+    <StackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+        </Grid>
+
+        <StackLayout Grid.Row="0">
+            <border:SfBorder
+            BorderColor="DarkCyan"
+            Margin="5,5,5,5"
+            CornerRadius="0,20,0,20"
+            HasShadow="False"
+            BorderWidth="5"
+            VerticalOptions="Start"
+            WidthRequest="200"
+            HeightRequest="400" Padding="5">
+                <gauge:SfCircularGauge>
+                    <gauge:SfCircularGauge.Scales>
+                        <gauge:Scale StartValue="0" EndValue="50">
+                            <gauge:Scale.Ranges>
+                                <gauge:Range StartValue="0" EndValue="20" Color="Green"/>
+                                <gauge:Range StartValue="20" EndValue="35" Color="Orange"/>
+                                <gauge:Range StartValue="35" EndValue="50" Color="Red"/>
+                            </gauge:Scale.Ranges>
+                            <gauge:Scale.Pointers>
+                                <gauge:NeedlePointer x:Name="pointer"/>
+                            </gauge:Scale.Pointers>
+                        </gauge:Scale>
+                    </gauge:SfCircularGauge.Scales>
+                </gauge:SfCircularGauge>
+            </border:SfBorder>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1">
+            <border:SfBorder
+            BorderColor="DarkCyan"
+            Margin="5,5,5,5"
+            CornerRadius="0,20,0,20"
+            HasShadow="False"
+            BorderWidth="5"
+            VerticalOptions="Start"
+            WidthRequest="200"
+            HeightRequest="100" Padding="5">
+                <StackLayout Grid.Row="1">
+                     <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                            </Grid.RowDefinitions>
+                                            <StackLayout Grid.Row="0">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="auto"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Label Text="Técnica: "  Grid.Column="0" TextColor="Gray"/>
+                                                    <Label Text="ggg" Grid.Column="1" TextColor="Black" VerticalOptions="End"/>
+                        
+                    </Grid>
+                </StackLayout>
+                </Grid>
+        </StackLayout>
+            </border:SfBorder>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2">
+            <border:SfBorder
+            BorderColor="DarkCyan"
+            Margin="5,5,5,5"
+            CornerRadius="0,20,0,20"
+            HasShadow="False"
+            BorderWidth="5"
+            VerticalOptions="Start"
+            WidthRequest="200"
+            HeightRequest="150" Padding="5">
+                <Label Text="Hola2"/>
+            </border:SfBorder>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

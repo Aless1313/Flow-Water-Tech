@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "FqWPZNFEjLv/whLxsyqcn1/6q4yHGh9eDpkT9N6bQpB7asKadRvLldfNYwpvg6nBNQyPyous/8OlLf+i/CPBGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aless\\source\\repos\\AppFWT\\AppFWT\\AppFWT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.41\\syncfusion.licensing.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.buttons\\18.4.0.41\\syncfusion.xamarin.buttons.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.41\\syncfusion.xamarin.core.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\18.4.0.41\\syncfusion.xamarin.sfautocomplete.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.41\\syncfusion.xamarin.sfcombobox.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfgauge\\18.4.0.41\\syncfusion.xamarin.sfgauge.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfmaskededit\\18.4.0.41\\syncfusion.xamarin.sfmaskededit.18.4.0.41.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

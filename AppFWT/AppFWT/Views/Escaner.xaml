@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             x:Class="AppFWT.Views.Escaner">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SyncPrimaryColor">#0074C4</Color>
+            <Color x:Key="SfTextInputLayoutHelperTextColor">#707070</Color>
+        </ResourceDictionary>
+
+        </ContentPage.Resources>
+
+        <ContentPage.Content>
+
+
+
+          <border:SfBorder
+            BorderColor="DarkCyan"
+            BackgroundColor="Transparent"
+            Margin="10,10,10,10"
+            CornerRadius="0,20,0,20"
+            HasShadow="True"
+            BorderWidth="5">
+                <StackLayout
+                Padding="10">
+
+                    <Image Source="qr.png" HeightRequest="350" WidthRequest="350" VerticalOptions="Start" HorizontalOptions="Center"/>
+                    <StackLayout
+                    x:Name="X"
+                    VerticalOptions="End"
+                    Padding="0,0,0,50">
+
+                    <Label Text="Ahora escanea el código QR del dispositivo" FontAttributes="Bold" FontSize="30" HorizontalTextAlignment="Center"/>
+                    <syncfusion:SfButton x:Name="btn_escanear"
+                                         Text="Escanear"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="End"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_escanear_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                </StackLayout>
+
+
+
+                </StackLayout>
+            </border:SfBorder>
+        </ContentPage.Content>
+</ContentPage>

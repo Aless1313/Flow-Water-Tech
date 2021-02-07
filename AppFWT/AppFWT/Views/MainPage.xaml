@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:autoComplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             x:Class="AppFWT.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SyncPrimaryColor">#0074C4</Color>
+            <Color x:Key="SfTextInputLayoutHelperTextColor">#707070</Color>
+        </ResourceDictionary>
+        
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+
+
+
+        <border:SfBorder
+            BorderColor="DarkCyan"
+            BackgroundColor="Transparent"
+            Margin="10,10,10,10"
+            CornerRadius="0,20,0,20"
+            HasShadow="True"
+            BorderWidth="5">
+            <StackLayout
+                Padding="10">
+
+                <Image Source="logogauge.png" HeightRequest="350" WidthRequest="350" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <StackLayout
+                    x:Name="ButtonsLogin"
+                    VerticalOptions="End"
+                    Padding="0,0,0,50">
+
+                    <syncfusion:SfButton x:Name="btn_opcioniniciarsesion"
+                                         Text="Iniciar sesión"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_opcioniniciarsesion_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                    <syncfusion:SfButton x:Name="btn_opcionregistrar"
+                                         Text="Registrarse"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_opcionregistrar_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+                </StackLayout>
+
+                <StackLayout x:Name="stkregistrar"
+                             VerticalOptions="EndAndExpand"
+                             Padding="0,0,0,50">
+                    <Label FontAttributes="Bold"
+                           FontSize="Large"
+                           Text="Registrate"/>
+
+                    <inputLayout:SfTextInputLayout Hint="Usuario"
+                                                   x:Name="txt_userregister"
+                                                   ContainerType="Outlined"
+                                                   FocusedColor="{Binding FocusedColor}"
+                                                   HelperText="Ingresa tu nombre usuario"
+                                                   IsHintAlwaysFloated="{Binding EnableHintAlwaysFloated}"
+                                                   OutlineCornerRadius="{Binding CornerRadius}">
+                        <Entry x:Name="txt_user" Text="{Binding Name}"/>
+                    </inputLayout:SfTextInputLayout>
+                    
+                    <inputLayout:SfTextInputLayout Hint="Correo"
+                                                   x:Name="txt_mailregistersf"
+                                                   ContainerType="Outlined"
+                                                   FocusedColor="{Binding FocusedColor}"
+                                                   HelperText="Ingresa tu correo"
+                                                   IsHintAlwaysFloated="{Binding EnableHintAlwaysFloated}"
+                                                   OutlineCornerRadius="{Binding CornerRadius}">
+                        <Entry x:Name="txt_mailregister" Text="{Binding Name}"/>
+                    </inputLayout:SfTextInputLayout>
+                      
+                    <inputLayout:SfTextInputLayout Hint="Contraseña"
+                                                   x:Name="txt_passwordregistersf"
+                                                   ContainerType="Outlined"
+                                                   FocusedColor="{Binding FocusedColor}"
+                                                   HelperText="Ingresa tu contraseña nueva"
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="1"
+                                                   EnablePasswordVisibilityToggle="True">
+                        <Entry x:Name="txt_passwordregister" Text="" IsPassword="True"/>
+                    </inputLayout:SfTextInputLayout>
+
+                    <syncfusion:SfButton x:Name="btn_registrar"
+                                         Text="Registrar"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_registrar_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                    <syncfusion:SfButton x:Name="btn_regresarregister"
+                                         Text="Regresar"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_regresarregister_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+
+                </StackLayout>
+
+                <StackLayout x:Name="stkiniciar"
+                             VerticalOptions="EndAndExpand"
+                             Padding="0,0,0,50">
+                    <Label FontAttributes="Bold"
+                           FontSize="Large"
+                           Text="Inicia Sesión"/>
+
+                    <inputLayout:SfTextInputLayout Hint="Correo"
+                                                   x:Name="txt_mailsesionsf"
+                                                   ContainerType="Outlined"
+                                                   FocusedColor="{Binding FocusedColor}"
+                                                   HelperText="Ingresa tu correo"
+                                                   IsHintAlwaysFloated="{Binding EnableHintAlwaysFloated}"
+                                                   OutlineCornerRadius="{Binding CornerRadius}">
+                        <Entry x:Name="txt_mailsesion" Text="{Binding Name}"/>
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Hint="Contraseña"
+                                                   x:Name="txt_passwordsesionsf"
+                                                   ContainerType="Outlined"
+                                                   FocusedColor="{Binding FocusedColor}"
+                                                   HelperText="Ingresa tu contraseña nueva"
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="1"
+                                                   EnablePasswordVisibilityToggle="True">
+                        <Entry x:Name="txt_passwordsesion" Text="" IsPassword="True"/>
+                    </inputLayout:SfTextInputLayout>
+
+                    <syncfusion:SfButton x:Name="btn_iniciarsesion"
+                                         Text="Iniciar sesión"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_iniciarsesion_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                    <syncfusion:SfButton x:Name="btn_regresarsesion"
+                                         Text="Regresar"
+                                         TextColor="DarkCyan"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White"
+                                         CornerRadius="0"
+                                         WidthRequest="350"
+                                         BorderColor="DarkCyan"
+                                         Clicked="btn_regresarsesion_Clicked">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                </StackLayout>
+
+
+
+            </StackLayout>
+        </border:SfBorder>
+    </ContentPage.Content>
+
+</ContentPage>
