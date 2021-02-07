@@ -87,7 +87,7 @@ namespace AppFWT
 
         public async void AbrirMenu()
         {
-            Navigation.PushAsync(new dashboard("hola"));
+            await Navigation.PushAsync(new dashboard("hola"));
         }
         public async void VerificarSesion()
         {
