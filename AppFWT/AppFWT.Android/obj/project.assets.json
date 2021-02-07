@@ -2372,24 +2372,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aless\\.nuget\\packages\\": {},
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
       "projectName": "AppFWT.Android",
-      "projectPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
-      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-      "outputPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT.Android\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\AppFWT.Android.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2403,8 +2403,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj": {
-              "projectPath": "E:\\A_ PROYECTO APP FWT\\AppFWT\\AppFWT\\AppFWT.csproj"
+            "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj": {
+              "projectPath": "C:\\Users\\andre\\Desktop\\Ahora si jalara\\Flow-Water-Tech\\AppFWT\\AppFWT\\AppFWT.csproj"
             }
           }
         }
