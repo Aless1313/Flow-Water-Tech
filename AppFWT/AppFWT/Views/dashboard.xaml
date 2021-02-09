@@ -6,16 +6,17 @@
              xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
              x:Class="AppFWT.Views.dashboard">
     <StackLayout>
-
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/> <!--0-->
+                <RowDefinition Height="*"/> <!--1-->
+                <RowDefinition Height="*"/> <!--2-->
+                <RowDefinition Height="*"/> <!--3-->
+                <RowDefinition Height="*"/> <!--4-->
             </Grid.RowDefinitions>
         </Grid>
-
         <StackLayout Grid.Row="0">
+        <!--Medidor-->
             <border:SfBorder
             BorderColor="DarkCyan"
             Margin="5,5,5,5"
@@ -41,52 +42,66 @@
                 </gauge:SfCircularGauge>
             </border:SfBorder>
         </StackLayout>
-
         <StackLayout Grid.Row="1">
-            <border:SfBorder
-            BorderColor="DarkCyan"
-            Margin="5,5,5,5"
-            CornerRadius="0,20,0,20"
-            HasShadow="False"
-            BorderWidth="5"
-            VerticalOptions="Start"
-            WidthRequest="200"
-            HeightRequest="100" Padding="5">
-                <StackLayout Grid.Row="1">
-                     <Grid>
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition Height="auto"/>
-                                                <RowDefinition Height="auto"/>
-                                            </Grid.RowDefinitions>
-                                            <StackLayout Grid.Row="0">
-                                                <Grid>
-                                                    <Grid.ColumnDefinitions>
-                                                        <ColumnDefinition Width="auto"/>
-                                                        <ColumnDefinition Width="*"/>
-                                                    </Grid.ColumnDefinitions>
-                                                    <Label Text="Técnica: "  Grid.Column="0" TextColor="Gray"/>
-                                                    <Label Text="ggg" Grid.Column="1" TextColor="Black" VerticalOptions="End"/>
-                        
-                    </Grid>
-                </StackLayout>
-                </Grid>
+        <!--Medidor en texto-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <StackLayout Grid.Column="0">
+                <Label Text="00.00"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label Text="Litros/Minuto"/>
+            </StackLayout>
         </StackLayout>
-            </border:SfBorder>
-        </StackLayout>
-
         <StackLayout Grid.Row="2">
-            <border:SfBorder
-            BorderColor="DarkCyan"
-            Margin="5,5,5,5"
-            CornerRadius="0,20,0,20"
-            HasShadow="False"
-            BorderWidth="5"
-            VerticalOptions="Start"
-            WidthRequest="200"
-            HeightRequest="150" Padding="5">
-                <Label Text="Hola2"/>
-            </border:SfBorder>
+        <!--Litros-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <StackLayout Grid.Column="0">
+                <Label Text="0.0"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label Text="Litros/Minuto"/>
+            </StackLayout>
         </StackLayout>
-
+        <StackLayout Grid.Row="3">
+        <!--Metros cubicos-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <StackLayout Grid.Column="0">
+                <Label Text="0.0"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label Text="Metros cubicos"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Grid.Row="4">
+        <!--Electrovalvula-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <StackLayout Grid.Column="0">
+                <!--BOTON PARA CERRAR FLUJO-->
+                <Switch></Switch>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label Text="CERRAR FLUJO"/>
+            </StackLayout>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
